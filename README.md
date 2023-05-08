@@ -2,7 +2,7 @@
 Noter : Un projet 100% en Orienté Objet C++
 
 # Exemple d'execution
-/* ****************************************************** */
+
 Bienvenue a l'outil d'ajout de gestion de vehicules
 /* ***************************************************** */
 -------------------------------------------------------
