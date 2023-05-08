@@ -5,7 +5,6 @@ Noter : Un projet 100% en Orienté Objet C++
 
 Bienvenue a l'outil d'ajout de gestion de vehicules
 
-/****************************************************** */
 -------------------------------------------------------
 Ajoutez un vehicule de promenade
 -------------------------------------------------------
