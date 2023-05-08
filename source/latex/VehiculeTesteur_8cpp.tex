@@ -1,0 +1,64 @@
+\hypertarget{VehiculeTesteur_8cpp}{}\doxysection{tests/\+Vehicule\+Testeur.cpp File Reference}
+\label{VehiculeTesteur_8cpp}\index{tests/VehiculeTesteur.cpp@{tests/VehiculeTesteur.cpp}}
+
+
+Implantation des tests unitaires de la classe Vehicule. Vehicule étant une classe abstraite, on crée une classe concrète dérivée de cette classe afin de pouvoir effectuer les tests Created on \+: 2023-\/03-\/01.  
+
+
+{\ttfamily \#include $<$gtest/gtest.\+h$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}Vehicule.\+h\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}Contrat\+Exception.\+h\char`\"{}}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$sstream$>$}\newline
+Include dependency graph for Vehicule\+Testeur.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{VehiculeTesteur_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classVehiculeDeTest}{Vehicule\+De\+Test}}
+\begin{DoxyCompactList}\small\item\em classe de test permettant de tester la classe abstraite Vehicule. \end{DoxyCompactList}\item 
+class \mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}
+\begin{DoxyCompactList}\small\item\em Fixture Vehicule\+Fixture pour la création d\textquotesingle{}un objet Vehicule pour les tests. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_aaf0474634c3a25f25a027eef105f17c6}\label{VehiculeTesteur_8cpp_aaf0474634c3a25f25a027eef105f17c6}} 
+\mbox{\hyperlink{VehiculeTesteur_8cpp_aaf0474634c3a25f25a027eef105f17c6}{T\+E\+ST}} (\mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}, Constructeur\+Avec\+Parametre)
+\begin{DoxyCompactList}\small\item\em Test du Constructeur avec paramètres cas valide\+: Constructeur avec les bonns paramètres \+: p\+\_\+niv, p\+\_\+immatriculation. cas invalides \+: p\+\_\+niv invalide invalide, p\+\_\+niv et p\+\_\+immatriculation invalides. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_a9a5bcc597872fc50ca84ab57bbfe4746}\label{VehiculeTesteur_8cpp_a9a5bcc597872fc50ca84ab57bbfe4746}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}, Constructeur\+Invalide\+Niv)
+\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_afaf01d9d18af7c8b0f6f2c24a1d847f6}\label{VehiculeTesteur_8cpp_afaf01d9d18af7c8b0f6f2c24a1d847f6}} 
+{\bfseries T\+E\+ST} (\mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}, Constructeur\+Invalide\+Immatriculation\+Niv)
+\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_acc1853069dcb5bd0480d2f5d8be81a94}\label{VehiculeTesteur_8cpp_acc1853069dcb5bd0480d2f5d8be81a94}} 
+\mbox{\hyperlink{VehiculeTesteur_8cpp_acc1853069dcb5bd0480d2f5d8be81a94}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}, req\+Niv)
+\begin{DoxyCompactList}\small\item\em Test de la méthode req\+Niv cas valide\+: retouner le numéro de série (ou N\+IV) du véhicule. cas invalides \+: aucun identifié. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_aa6cbfafcc6c8bcf7d0c1c8dfbdef0880}\label{VehiculeTesteur_8cpp_aa6cbfafcc6c8bcf7d0c1c8dfbdef0880}} 
+\mbox{\hyperlink{VehiculeTesteur_8cpp_aa6cbfafcc6c8bcf7d0c1c8dfbdef0880}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}, req\+Immatriculation)
+\begin{DoxyCompactList}\small\item\em Test de la méthode req\+Immatriculation cas valide\+: retouner le numéro d\textquotesingle{}immatriuclation du véhicule. cas invalides \+: aucun identifié. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_ae3b01fec0c9e13774677c923477ac9a4}\label{VehiculeTesteur_8cpp_ae3b01fec0c9e13774677c923477ac9a4}} 
+\mbox{\hyperlink{VehiculeTesteur_8cpp_ae3b01fec0c9e13774677c923477ac9a4}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}, req\+Vehicule\+Formate)
+\begin{DoxyCompactList}\small\item\em Test de la méthode req\+Vehicule\+Formate cas valide\+: retourner dans un string les données du véhicule. cas invalides \+: aucun identifié. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_ad4af0e1dc03bf044fed8b6ff3b0154e9}\label{VehiculeTesteur_8cpp_ad4af0e1dc03bf044fed8b6ff3b0154e9}} 
+\mbox{\hyperlink{VehiculeTesteur_8cpp_ad4af0e1dc03bf044fed8b6ff3b0154e9}{T\+E\+S\+T\+\_\+F}} (\mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}, Egalite)
+\begin{DoxyCompactList}\small\item\em Test de l\textquotesingle{}opérateur surchagé d\textquotesingle{}égalité (operator ==) cas valide\+: retourner true si les deux véhicules sont pareils, false sinon. cas invalides \+: aucun identifié. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{VehiculeTesteur_8cpp_a93de3152b2fbcb7ace2dae895c66387c}\label{VehiculeTesteur_8cpp_a93de3152b2fbcb7ace2dae895c66387c}} 
+{\bfseries T\+E\+S\+T\+\_\+F} (\mbox{\hyperlink{classVehiculeTest}{Vehicule\+Test}}, Pas\+Egalite)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Implantation des tests unitaires de la classe Vehicule. Vehicule étant une classe abstraite, on crée une classe concrète dérivée de cette classe afin de pouvoir effectuer les tests Created on \+: 2023-\/03-\/01. 
+
+\begin{DoxyAuthor}{Author}
+\+: El hadji Nimaga 
+\end{DoxyAuthor}

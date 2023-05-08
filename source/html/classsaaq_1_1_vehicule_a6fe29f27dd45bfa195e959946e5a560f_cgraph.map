@@ -1,0 +1,5 @@
+<map id="saaq::Vehicule::reqVehiculeFormate" name="saaq::Vehicule::reqVehiculeFormate">
+<area shape="rect" id="node1" title="Convertit les données du Véhicule dans une chaîne de caractères formatée." alt="" coords="5,23,205,65"/>
+<area shape="rect" id="node2" href="$classsaaq_1_1_vehicule.html#a679575abcb95ec376e80d293d84f7b57" title="Accesseur pour le numéro de plaque d’immatriculation du Vehicule." alt="" coords="253,5,503,32"/>
+<area shape="rect" id="node3" href="$classsaaq_1_1_vehicule.html#ab8f91bc2878abacf7e188cc5161df66c" title="Accesseur pour le numéro de série (NIV) du Vehicule." alt="" coords="295,56,461,83"/>
+</map>

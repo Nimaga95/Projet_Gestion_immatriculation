@@ -1,0 +1,6 @@
+<map id="CamionTest" name="CamionTest">
+<area shape="rect" id="node1" title="Fixture CamionFixture pour la création d&#39;un objet Camion pour les tests." alt="" coords="5,171,104,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="9,81,57,108"/>
+<area shape="rect" id="node3" href="$classsaaq_1_1Camion.html" title="Cette classe permet de gérer les vehicules de type camion. Elle hérite de la classe Vehicule." alt="" coords="82,81,193,108"/>
+<area shape="rect" id="node4" href="$classsaaq_1_1Vehicule.html" title="Classe abstraite qui permet de gérer les vehicules." alt="" coords="79,5,195,32"/>
+</map>

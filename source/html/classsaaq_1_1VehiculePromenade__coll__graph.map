@@ -1,0 +1,4 @@
+<map id="saaq::VehiculePromenade" name="saaq::VehiculePromenade">
+<area shape="rect" id="node1" title="Cette classe permet de gérer les vehicules de type promenade. Elle hérite de la classe Vehicule." alt="" coords="5,80,196,107"/>
+<area shape="rect" id="node2" href="$classsaaq_1_1Vehicule.html" title="Classe abstraite qui permet de gérer les vehicules." alt="" coords="43,5,159,32"/>
+</map>

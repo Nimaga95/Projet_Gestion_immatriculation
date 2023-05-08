@@ -1,0 +1,180 @@
+\hypertarget{classsaaq_1_1Proprietaire}{}\doxysection{saaq\+::Proprietaire Class Reference}
+\label{classsaaq_1_1Proprietaire}\index{saaq::Proprietaire@{saaq::Proprietaire}}
+
+
+Cette classe permet de gérer les propriétaires de véhicules.  
+
+
+
+
+{\ttfamily \#include $<$Proprietaire.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsaaq_1_1Proprietaire_af70905a8a13010db6d3b88f1f9ad5ffd}{Proprietaire}} (const std\+::string \&p\+\_\+nom, const std\+::string \&p\+\_\+prenom)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsaaq_1_1Proprietaire_af13eace65c6cb573edbd622c4e286549}{Proprietaire}} (const \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \&p\+\_\+proprietaire)
+\begin{DoxyCompactList}\small\item\em constructeur copie, c\textquotesingle{}est une forme canonique de coplien, il faut faire une copie en profondeur. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_aadc1d62ca4fb47f44022ea93c6675bb1}\label{classsaaq_1_1Proprietaire_aadc1d62ca4fb47f44022ea93c6675bb1}} 
+virtual \mbox{\hyperlink{classsaaq_1_1Proprietaire_aadc1d62ca4fb47f44022ea93c6675bb1}{$\sim$\+Proprietaire}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \& \mbox{\hyperlink{classsaaq_1_1Proprietaire_a0c8ca37e86016d09d1487c9568c688f1}{operator=}} (const \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \&p\+\_\+proprietaire)
+\begin{DoxyCompactList}\small\item\em Cette méthode est un opérateur d\textquotesingle{}assignation permettant de copier l\textquotesingle{}objet p\+\_\+proprietaire dans l\textquotesingle{}objet courant. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classsaaq_1_1Proprietaire_aec9d424633695e216209c7a6e9b7cb11}{req\+Nom}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour le nom du propriétaire. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classsaaq_1_1Proprietaire_ae5dd9deb32034ca724a4aa326ca8ed84}{req\+Prenom}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour le prénom du propriétaire. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classsaaq_1_1Proprietaire_a762f8ae925b741697a0eae57a8d20f44}{reqnb\+Vehicules}} () const
+\begin{DoxyCompactList}\small\item\em Cette méthode retourne le nombre de véhicules que possède un propriétaire. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsaaq_1_1Proprietaire_aa6f1af7fa9ee650bc96ff414c7923c49}{ajouter\+Vehicule}} (const \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} \&p\+\_\+nouveau\+Vehicule)
+\begin{DoxyCompactList}\small\item\em Cette méthode permet d\textquotesingle{}ajouter un véhicule à un propriétaire en faisant une copie allouée sur le monceau. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classsaaq_1_1Proprietaire_a808b18e9e9a6b1d3b7f24e78769c0474}{req\+Proprietaire\+Formate}} () const
+\begin{DoxyCompactList}\small\item\em Cette méthode convertit les données du propriétaire dans une chaîne de caractères formatée. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Cette classe permet de gérer les propriétaires de véhicules. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_af70905a8a13010db6d3b88f1f9ad5ffd}\label{classsaaq_1_1Proprietaire_af70905a8a13010db6d3b88f1f9ad5ffd}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!Proprietaire@{Proprietaire}}
+\index{Proprietaire@{Proprietaire}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{Proprietaire()}{Proprietaire()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily saaq\+::\+Proprietaire\+::\+Proprietaire (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{p\+\_\+nom,  }\item[{const std\+::string \&}]{p\+\_\+prenom }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+nom} & \+: Le nom du propriétaire. \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+prenom} & \+: Le prénom du propriétaire. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+(!p\+\_\+nom.empty)\+: Le nom du propriétaire ne peut pas être vide. 
+
+(!p\+\_\+prenom.empty) \+: Le prénom du propriétaire ne peut pas être vide. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+(m\+\_\+nom == p\+\_\+nom) \+: Vérifie que le nom du propriétaire est bien initialisé avec la valeur passée en paramètre. 
+
+(m\+\_\+prenom == p\+\_\+prenom) \+: Vérifie que le prénom du propriétaire est bien initialisé avec la valeur passée en paramètre. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_af13eace65c6cb573edbd622c4e286549}\label{classsaaq_1_1Proprietaire_af13eace65c6cb573edbd622c4e286549}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!Proprietaire@{Proprietaire}}
+\index{Proprietaire@{Proprietaire}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{Proprietaire()}{Proprietaire()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily saaq\+::\+Proprietaire\+::\+Proprietaire (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \&}]{p\+\_\+proprietaire }\end{DoxyParamCaption})}
+
+
+
+constructeur copie, c\textquotesingle{}est une forme canonique de coplien, il faut faire une copie en profondeur. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+proprietaire} & \+: Le propriétaire dont on on veut construire une copie. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+(m\+\_\+nom == p\+\_\+proprietaire.\+m\+\_\+nom) \+: Vérifie que le nom du propriétaire passé en paramétre a bien été modifié. 
+
+(m\+\_\+prenom == p\+\_\+proprietaire.\+m\+\_\+prenom) \+: Vérifie que prénom du propriétaire passé en paramétre a bien été modifié. 
+\end{DoxyPostcond}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_aa6f1af7fa9ee650bc96ff414c7923c49}\label{classsaaq_1_1Proprietaire_aa6f1af7fa9ee650bc96ff414c7923c49}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!ajouterVehicule@{ajouterVehicule}}
+\index{ajouterVehicule@{ajouterVehicule}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{ajouterVehicule()}{ajouterVehicule()}}
+{\footnotesize\ttfamily void saaq\+::\+Proprietaire\+::ajouter\+Vehicule (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} \&}]{p\+\_\+nouveau\+Vehicule }\end{DoxyParamCaption})}
+
+
+
+Cette méthode permet d\textquotesingle{}ajouter un véhicule à un propriétaire en faisant une copie allouée sur le monceau. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+nouveau\+Vehicule} & \+: le véhicule à ajouter. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_a0c8ca37e86016d09d1487c9568c688f1}\label{classsaaq_1_1Proprietaire_a0c8ca37e86016d09d1487c9568c688f1}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!operator=@{operator=}}
+\index{operator=@{operator=}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \& saaq\+::\+Proprietaire\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} \&}]{p\+\_\+proprietaire }\end{DoxyParamCaption})}
+
+
+
+Cette méthode est un opérateur d\textquotesingle{}assignation permettant de copier l\textquotesingle{}objet p\+\_\+proprietaire dans l\textquotesingle{}objet courant. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+proprietaire} & \+: un objet \mbox{\hyperlink{classsaaq_1_1Proprietaire}{Proprietaire}} qui est passé par référence constante. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+un pointeur vers l\textquotesingle{}objet courant pour les appels en cascade. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_a762f8ae925b741697a0eae57a8d20f44}\label{classsaaq_1_1Proprietaire_a762f8ae925b741697a0eae57a8d20f44}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!reqnbVehicules@{reqnbVehicules}}
+\index{reqnbVehicules@{reqnbVehicules}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{reqnbVehicules()}{reqnbVehicules()}}
+{\footnotesize\ttfamily int saaq\+::\+Proprietaire\+::reqnb\+Vehicules (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Cette méthode retourne le nombre de véhicules que possède un propriétaire. 
+
+\begin{DoxyReturn}{Returns}
+int \+: Le nombre de véhicules du propriétaire. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_aec9d424633695e216209c7a6e9b7cb11}\label{classsaaq_1_1Proprietaire_aec9d424633695e216209c7a6e9b7cb11}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!reqNom@{reqNom}}
+\index{reqNom@{reqNom}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{reqNom()}{reqNom()}}
+{\footnotesize\ttfamily std\+::string saaq\+::\+Proprietaire\+::req\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour le nom du propriétaire. 
+
+\begin{DoxyReturn}{Returns}
+string \+: Le nom du propriétaire. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_ae5dd9deb32034ca724a4aa326ca8ed84}\label{classsaaq_1_1Proprietaire_ae5dd9deb32034ca724a4aa326ca8ed84}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!reqPrenom@{reqPrenom}}
+\index{reqPrenom@{reqPrenom}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{reqPrenom()}{reqPrenom()}}
+{\footnotesize\ttfamily std\+::string saaq\+::\+Proprietaire\+::req\+Prenom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour le prénom du propriétaire. 
+
+\begin{DoxyReturn}{Returns}
+string \+: Le prénom du propriétaire. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Proprietaire_a808b18e9e9a6b1d3b7f24e78769c0474}\label{classsaaq_1_1Proprietaire_a808b18e9e9a6b1d3b7f24e78769c0474}} 
+\index{saaq::Proprietaire@{saaq::Proprietaire}!reqProprietaireFormate@{reqProprietaireFormate}}
+\index{reqProprietaireFormate@{reqProprietaireFormate}!saaq::Proprietaire@{saaq::Proprietaire}}
+\doxysubsubsection{\texorpdfstring{reqProprietaireFormate()}{reqProprietaireFormate()}}
+{\footnotesize\ttfamily std\+::string saaq\+::\+Proprietaire\+::req\+Proprietaire\+Formate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Cette méthode convertit les données du propriétaire dans une chaîne de caractères formatée. 
+
+\begin{DoxyReturn}{Returns}
+string \+: la chaîne de caractères formatée contenant les informations du propriétaire. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Proprietaire.\+h\item 
+\mbox{\hyperlink{Proprietaire_8cpp}{Proprietaire.\+cpp}}\end{DoxyCompactItemize}

@@ -1,0 +1,5 @@
+<map id="saaq::Proprietaire::ajouterVehicule" name="saaq::Proprietaire::ajouterVehicule">
+<area shape="rect" id="node1" title="Cette méthode permet d&#39;ajouter un véhicule à un propriétaire en faisant une copie allouée sur le monc..." alt="" coords="191,39,328,80"/>
+<area shape="rect" id="node2" href="$classsaaq_1_1_proprietaire.html#a0c8ca37e86016d09d1487c9568c688f1" title="Cette méthode est un opérateur d&#39;assignation permettant de copier l&#39;objet p_proprietaire dans l&#39;objet..." alt="" coords="5,5,143,47"/>
+<area shape="rect" id="node3" href="$classsaaq_1_1_proprietaire.html#af13eace65c6cb573edbd622c4e286549" title="constructeur copie, c&#39;est une forme canonique de coplien, il faut faire une copie en profondeur." alt="" coords="5,71,143,112"/>
+</map>

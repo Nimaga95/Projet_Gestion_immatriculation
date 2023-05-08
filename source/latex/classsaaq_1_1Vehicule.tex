@@ -1,0 +1,163 @@
+\hypertarget{classsaaq_1_1Vehicule}{}\doxysection{saaq\+::Vehicule Class Reference}
+\label{classsaaq_1_1Vehicule}\index{saaq::Vehicule@{saaq::Vehicule}}
+
+
+Classe abstraite qui permet de gérer les vehicules.  
+
+
+
+
+{\ttfamily \#include $<$Vehicule.\+h$>$}
+
+
+
+Inheritance diagram for saaq\+::Vehicule\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsaaq_1_1Vehicule__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classsaaq_1_1Vehicule_ae2c0bad39fde59a67ae9c66887ffba1a}{Vehicule}} (const std\+::string \&p\+\_\+niv, const std\+::string \&p\+\_\+immatriculation)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classsaaq_1_1Vehicule_a814f93a8b5dd42eee90e1c3f5f2b92a2}{$\sim$\+Vehicule}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur de la classe \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classsaaq_1_1Vehicule_ab8f91bc2878abacf7e188cc5161df66c}{req\+Niv}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour le numéro de série (N\+IV) du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classsaaq_1_1Vehicule_a679575abcb95ec376e80d293d84f7b57}{req\+Immatriculation}} () const
+\begin{DoxyCompactList}\small\item\em Accesseur pour le numéro de plaque d’immatriculation du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classsaaq_1_1Vehicule_a9dd4c5e7c74ebabd5f4ce651d21d79fc}{operator==}} (const \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} \&p\+\_\+vehicule) const
+\begin{DoxyCompactList}\small\item\em Surcharge de l\textquotesingle{}opérateur == pour comparer deux objets véhicules. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_a08908cf57e0e78e763de887b02e96e69}\label{classsaaq_1_1Vehicule_a08908cf57e0e78e763de887b02e96e69}} 
+virtual std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} $>$ {\bfseries clone} () const =0
+\item 
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_ad841a081ce26ffc8c9ca3bf42f271397}\label{classsaaq_1_1Vehicule_ad841a081ce26ffc8c9ca3bf42f271397}} 
+virtual double {\bfseries tarification\+Annuelle} () const =0
+\item 
+virtual std\+::string \mbox{\hyperlink{classsaaq_1_1Vehicule_a6fe29f27dd45bfa195e959946e5a560f}{req\+Vehicule\+Formate}} () const
+\begin{DoxyCompactList}\small\item\em Convertit les données du Véhicule dans une chaîne de caractères formatée. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_ab033a545964f42b3580609fad73afb72}\label{classsaaq_1_1Vehicule_ab033a545964f42b3580609fad73afb72}} 
+virtual void {\bfseries asg\+Immatriculation} (const std\+::string \&nouveau\+Immatriculation)=0
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_ac1ce00d0777d5cbc6cedd9969a2b60ce}\label{classsaaq_1_1Vehicule_ac1ce00d0777d5cbc6cedd9969a2b60ce}} 
+std\+::string {\bfseries m\+\_\+immatriculation}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe abstraite qui permet de gérer les vehicules. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_ae2c0bad39fde59a67ae9c66887ffba1a}\label{classsaaq_1_1Vehicule_ae2c0bad39fde59a67ae9c66887ffba1a}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!Vehicule@{Vehicule}}
+\index{Vehicule@{Vehicule}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{Vehicule()}{Vehicule()}}
+{\footnotesize\ttfamily saaq\+::\+Vehicule\+::\+Vehicule (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{p\+\_\+niv,  }\item[{const std\+::string \&}]{p\+\_\+immatriculation }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+niv} & \+: Le numéro de série du Véhicule (ou N\+IV). \\
+\hline
+\mbox{\texttt{ in}}  & {\em p\+\_\+immatriculation} & \+: Le numéro de plaque d’immatriculation du Véhicule. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+(valider\+Niv (p\+\_\+niv)) \+: Le numéro de série du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} doit être dans un format valide avant de continuer. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+(p\+\_\+niv == m\+\_\+niv) \+: Vérifie que le numéro de serie du véhicule est bien initialisé avec la valeur passée en paramètre. 
+\end{DoxyPostcond}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_a814f93a8b5dd42eee90e1c3f5f2b92a2}\label{classsaaq_1_1Vehicule_a814f93a8b5dd42eee90e1c3f5f2b92a2}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!````~Vehicule@{$\sim$Vehicule}}
+\index{````~Vehicule@{$\sim$Vehicule}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{$\sim$Vehicule()}{~Vehicule()}}
+{\footnotesize\ttfamily saaq\+::\+Vehicule\+::$\sim$\+Vehicule (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur de la classe \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_a9dd4c5e7c74ebabd5f4ce651d21d79fc}\label{classsaaq_1_1Vehicule_a9dd4c5e7c74ebabd5f4ce651d21d79fc}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!operator==@{operator==}}
+\index{operator==@{operator==}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool saaq\+::\+Vehicule\+::operator== (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} \&}]{p\+\_\+vehicule }\end{DoxyParamCaption}) const}
+
+
+
+Surcharge de l\textquotesingle{}opérateur == pour comparer deux objets véhicules. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em p\+\_\+vehicule} & \+: L\textquotesingle{}objet \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}} à comparer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool \+: True si les deux objets sont égaux, False sinon. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_a679575abcb95ec376e80d293d84f7b57}\label{classsaaq_1_1Vehicule_a679575abcb95ec376e80d293d84f7b57}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!reqImmatriculation@{reqImmatriculation}}
+\index{reqImmatriculation@{reqImmatriculation}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{reqImmatriculation()}{reqImmatriculation()}}
+{\footnotesize\ttfamily string saaq\+::\+Vehicule\+::req\+Immatriculation (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour le numéro de plaque d’immatriculation du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+
+\begin{DoxyReturn}{Returns}
+string \+: une chaîne de caractères représentant le numéro de plaque d’immatriculation du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_ab8f91bc2878abacf7e188cc5161df66c}\label{classsaaq_1_1Vehicule_ab8f91bc2878abacf7e188cc5161df66c}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!reqNiv@{reqNiv}}
+\index{reqNiv@{reqNiv}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{reqNiv()}{reqNiv()}}
+{\footnotesize\ttfamily string saaq\+::\+Vehicule\+::req\+Niv (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Accesseur pour le numéro de série (N\+IV) du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+
+\begin{DoxyReturn}{Returns}
+string \+: une chaîne de caractères représentant le numéro de série (N\+IV) du \mbox{\hyperlink{classsaaq_1_1Vehicule}{Vehicule}}. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classsaaq_1_1Vehicule_a6fe29f27dd45bfa195e959946e5a560f}\label{classsaaq_1_1Vehicule_a6fe29f27dd45bfa195e959946e5a560f}} 
+\index{saaq::Vehicule@{saaq::Vehicule}!reqVehiculeFormate@{reqVehiculeFormate}}
+\index{reqVehiculeFormate@{reqVehiculeFormate}!saaq::Vehicule@{saaq::Vehicule}}
+\doxysubsubsection{\texorpdfstring{reqVehiculeFormate()}{reqVehiculeFormate()}}
+{\footnotesize\ttfamily string saaq\+::\+Vehicule\+::req\+Vehicule\+Formate (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Convertit les données du Véhicule dans une chaîne de caractères formatée. 
+
+\begin{DoxyReturn}{Returns}
+string \+: la chaîne de caractères formatée contenant les informations du Véhicule. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classVehiculeDeTest_a7554eff20d40dc19afc89062f9a5839a}{Vehicule\+De\+Test}}, \mbox{\hyperlink{classsaaq_1_1Camion_a7e352c9d011c145497fa19d16482bd9a}{saaq\+::\+Camion}}, and \mbox{\hyperlink{classsaaq_1_1VehiculePromenade_a338b22f240c47613ba08f37bf717658b}{saaq\+::\+Vehicule\+Promenade}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Vehicule_8h}{Vehicule.\+h}}\item 
+\mbox{\hyperlink{Vehicule_8cpp}{Vehicule.\+cpp}}\end{DoxyCompactItemize}

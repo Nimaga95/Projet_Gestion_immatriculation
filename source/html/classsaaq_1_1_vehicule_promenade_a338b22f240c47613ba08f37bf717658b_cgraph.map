@@ -1,0 +1,8 @@
+<map id="saaq::VehiculePromenade::reqVehiculeFormate" name="saaq::VehiculePromenade::reqVehiculeFormate">
+<area shape="rect" id="node1" title="Cette méthode convertit les données du Véhicule de proménade dans une chaîne de caractères formatée." alt="" coords="5,71,196,112"/>
+<area shape="rect" id="node2" href="$classsaaq_1_1_vehicule_promenade.html#a240f3acb719aaa0df68b98da7a9bc6de" title="Accesseur pour le nombre de places du véhicule de promenade." alt="" coords="249,5,439,47"/>
+<area shape="rect" id="node3" href="$classsaaq_1_1_vehicule.html#a6fe29f27dd45bfa195e959946e5a560f" title="Convertit les données du Véhicule dans une chaîne de caractères formatée." alt="" coords="244,71,444,112"/>
+<area shape="rect" id="node6" href="$classsaaq_1_1_vehicule_promenade.html#ad94d645be9862d1cd86953ca8a7777b9" title="Cette méthode calcule la tarification annuelle d&#39;un véhicule de promenade." alt="" coords="249,136,439,177"/>
+<area shape="rect" id="node4" href="$classsaaq_1_1_vehicule.html#a679575abcb95ec376e80d293d84f7b57" title="Accesseur pour le numéro de plaque d’immatriculation du Vehicule." alt="" coords="492,53,741,79"/>
+<area shape="rect" id="node5" href="$classsaaq_1_1_vehicule.html#ab8f91bc2878abacf7e188cc5161df66c" title="Accesseur pour le numéro de série (NIV) du Vehicule." alt="" coords="533,103,700,130"/>
+</map>

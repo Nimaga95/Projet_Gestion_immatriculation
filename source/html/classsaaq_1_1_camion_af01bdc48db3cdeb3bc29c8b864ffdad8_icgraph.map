@@ -1,0 +1,4 @@
+<map id="saaq::Camion::tarificationAnnuelle" name="saaq::Camion::tarificationAnnuelle">
+<area shape="rect" id="node1" title="Cette méthode calcule la tarification annuelle d&#39;un camion en fonction de son nombre d&#39;essieux et de ..." alt="" coords="248,5,437,47"/>
+<area shape="rect" id="node2" href="$classsaaq_1_1_camion.html#a7e352c9d011c145497fa19d16482bd9a" title="Cette méthode convertit les données du camion dans une chaîne de caractères formatée." alt="" coords="5,5,200,47"/>
+</map>

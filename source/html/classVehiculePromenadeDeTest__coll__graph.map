@@ -1,0 +1,6 @@
+<map id="VehiculePromenadeDeTest" name="VehiculePromenadeDeTest">
+<area shape="rect" id="node1" title="Fixture VehiculePromenadeFixture pour la création d&#39;un objet VehiculePromenade pour les tests." alt="" coords="5,171,200,197"/>
+<area shape="rect" id="node2" title=" " alt="" coords="57,81,105,108"/>
+<area shape="rect" id="node3" href="$classsaaq_1_1VehiculePromenade.html" title="Cette classe permet de gérer les vehicules de type promenade. Elle hérite de la classe Vehicule." alt="" coords="130,81,321,108"/>
+<area shape="rect" id="node4" href="$classsaaq_1_1Vehicule.html" title="Classe abstraite qui permet de gérer les vehicules." alt="" coords="167,5,283,32"/>
+</map>
