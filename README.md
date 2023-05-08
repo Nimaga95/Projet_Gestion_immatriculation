@@ -2,9 +2,9 @@
 Noter : Un projet 100% en Orienté Objet C++
 
 # Exemple d'execution
-*******************************************************
-## Bienvenue a l'outil d'ajout de gestion de vehicules
-/*******************************************************/
+/* ****************************************************** */
+Bienvenue a l'outil d'ajout de gestion de vehicules
+/* ***************************************************** */
 -------------------------------------------------------
 Ajoutez un vehicule de promenade
 -------------------------------------------------------
@@ -43,16 +43,30 @@ Entrez le nombre d'essieux >= 2 :
 
 Proprietaire
 -------------------
+
 Nom : Tremblay
+
 Prenom : Louis
+
 -------------------
+
 Numero de serie : 3VWFE21C04M000001
+
 Numero d’immatriculation : IFT 006
+
 nombre de places : 7
+
 tarif : 232.74$
+
 -------------------
+
 Numero de serie : 1HTMKADN43H561298
+
 Numero d’immatriculation : L032006
+
 nombre d'essieux : 4
+
 poids : 6500 kg
+
 tarif : 2409.19$
+
