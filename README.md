@@ -72,4 +72,6 @@ poids : 6500 kg
 tarif : 2409.19$
 
 # Utilisation
-Télecharger le projet, l'ouvrir dans Apache Netbeans sur linux et excuter le fichier d'utilsation : gestion_immatriculation dans le repertoire utilisation.
+
+Télecharger le projet, l'ouvrir dans Apache Netbeans sur linux et excuter le fichier d'utilsation : gestionImmatriculation dans le repertoire utilisation.
+Si erreur spécifier le repertoire du projet à votre IDE.
