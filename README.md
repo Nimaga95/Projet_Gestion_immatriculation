@@ -1,9 +1,10 @@
 # Projet_Gestion_immatriculation
-Noter : Un projet 100% en Orienté Objet C++
+
+Il s'agit d'un projet de gestion de voitures en C++
 
 # Exemple d'execution
 
-Bienvenue a l'outil d'ajout de gestion de vehicules
+Bienvenue à l'outil d'ajout de gestion de vehicules
 
 -------------------------------------------------------
 Ajoutez un vehicule de promenade
