@@ -1,6 +1,6 @@
 # Projet_Gestion_immatriculation
 
-Il s'agit d'un projet complet de gestion de voitures en C++. De la création des classes, des tests, et de l'interface graphique.
+Il s'agit d'un projet complet de gestion de voitures en C++. 
 
 # Exemple d'execution
 
