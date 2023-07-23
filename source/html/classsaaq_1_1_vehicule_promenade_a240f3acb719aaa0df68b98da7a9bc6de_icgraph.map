@@ -1,4 +1,0 @@
-<map id="saaq::VehiculePromenade::reqnbPlaces" name="saaq::VehiculePromenade::reqnbPlaces">
-<area shape="rect" id="node1" title="Accesseur pour le nombre de places du véhicule de promenade." alt="" coords="244,5,435,47"/>
-<area shape="rect" id="node2" href="$classsaaq_1_1_vehicule_promenade.html#a338b22f240c47613ba08f37bf717658b" title="Cette méthode convertit les données du Véhicule de proménade dans une chaîne de caractères formatée." alt="" coords="5,5,196,47"/>
-</map>

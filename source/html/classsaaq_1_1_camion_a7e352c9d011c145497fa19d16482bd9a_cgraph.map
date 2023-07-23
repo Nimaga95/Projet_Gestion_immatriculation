@@ -1,9 +1,0 @@
-<map id="saaq::Camion::reqVehiculeFormate" name="saaq::Camion::reqVehiculeFormate">
-<area shape="rect" id="node1" title="Cette méthode convertit les données du camion dans une chaîne de caractères formatée." alt="" coords="5,78,200,119"/>
-<area shape="rect" id="node2" href="$classsaaq_1_1_camion.html#ab859e2adf559ffa8aa661c5c3ac6060c" title="Accesseur pour le nombre d&#39;essieux du camion." alt="" coords="248,5,455,32"/>
-<area shape="rect" id="node3" href="$classsaaq_1_1_camion.html#a16b06cfe5f8060980caad811b72d66a2" title="Accesseur pour le poids du camion." alt="" coords="264,56,439,83"/>
-<area shape="rect" id="node4" href="$classsaaq_1_1_vehicule.html#a6fe29f27dd45bfa195e959946e5a560f" title="Convertit les données du Véhicule dans une chaîne de caractères formatée." alt="" coords="251,107,451,149"/>
-<area shape="rect" id="node7" href="$classsaaq_1_1_camion.html#af01bdc48db3cdeb3bc29c8b864ffdad8" title="Cette méthode calcule la tarification annuelle d&#39;un camion en fonction de son nombre d&#39;essieux et de ..." alt="" coords="257,173,446,214"/>
-<area shape="rect" id="node5" href="$classsaaq_1_1_vehicule.html#a679575abcb95ec376e80d293d84f7b57" title="Accesseur pour le numéro de plaque d’immatriculation du Vehicule." alt="" coords="503,89,752,116"/>
-<area shape="rect" id="node6" href="$classsaaq_1_1_vehicule.html#ab8f91bc2878abacf7e188cc5161df66c" title="Accesseur pour le numéro de série (NIV) du Vehicule." alt="" coords="544,140,711,167"/>
-</map>

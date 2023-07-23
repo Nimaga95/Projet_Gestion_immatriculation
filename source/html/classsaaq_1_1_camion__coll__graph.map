@@ -1,4 +1,0 @@
-<map id="saaq::Camion" name="saaq::Camion">
-<area shape="rect" id="node1" title="Cette classe permet de gérer les vehicules de type camion. Elle hérite de la classe Vehicule." alt="" coords="8,80,119,107"/>
-<area shape="rect" id="node2" href="$classsaaq_1_1_vehicule.html" title="Classe abstraite qui permet de gérer les vehicules." alt="" coords="5,5,121,32"/>
-</map>

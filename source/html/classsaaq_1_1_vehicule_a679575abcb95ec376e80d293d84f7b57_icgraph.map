@@ -1,6 +1,0 @@
-<map id="saaq::Vehicule::reqImmatriculation" name="saaq::Vehicule::reqImmatriculation">
-<area shape="rect" id="node1" title="Accesseur pour le numéro de plaque d’immatriculation du Vehicule." alt="" coords="496,46,745,73"/>
-<area shape="rect" id="node2" href="$classsaaq_1_1_vehicule.html#a6fe29f27dd45bfa195e959946e5a560f" title="Convertit les données du Véhicule dans une chaîne de caractères formatée." alt="" coords="248,39,448,80"/>
-<area shape="rect" id="node3" href="$classsaaq_1_1_vehicule_promenade.html#a338b22f240c47613ba08f37bf717658b" title="Cette méthode convertit les données du Véhicule de proménade dans une chaîne de caractères formatée." alt="" coords="7,5,198,47"/>
-<area shape="rect" id="node4" href="$classsaaq_1_1_camion.html#a7e352c9d011c145497fa19d16482bd9a" title="Cette méthode convertit les données du camion dans une chaîne de caractères formatée." alt="" coords="5,71,200,112"/>
-</map>

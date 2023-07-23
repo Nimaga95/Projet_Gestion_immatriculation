@@ -1,5 +1,0 @@
-<map id="saaq::Proprietaire::operator=" name="saaq::Proprietaire::operator=">
-<area shape="rect" id="node1" title="Cette méthode est un opérateur d&#39;assignation permettant de copier l&#39;objet p_proprietaire dans l&#39;objet..." alt="" coords="5,5,143,47"/>
-<area shape="rect" id="node2" href="$classsaaq_1_1_proprietaire.html#aa6f1af7fa9ee650bc96ff414c7923c49" title="Cette méthode permet d&#39;ajouter un véhicule à un propriétaire en faisant une copie allouée sur le monc..." alt="" coords="191,5,328,47"/>
-<area shape="rect" id="node3" href="$classsaaq_1_1_vehicule.html#a08908cf57e0e78e763de887b02e96e69" title=" " alt="" coords="376,13,535,39"/>
-</map>

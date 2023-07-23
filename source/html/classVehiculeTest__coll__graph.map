@@ -1,6 +1,0 @@
-<map id="VehiculeTest" name="VehiculeTest">
-<area shape="rect" id="node1" title="Fixture VehiculeFixture pour la création d&#39;un objet Vehicule pour les tests." alt="" coords="5,171,108,197"/>
-<area shape="rect" id="node2" title=" " alt="" coords="11,81,59,108"/>
-<area shape="rect" id="node3" href="$classVehiculeDeTest.html" title="classe de test permettant de tester la classe abstraite Vehicule." alt="" coords="84,81,205,108"/>
-<area shape="rect" id="node4" href="$classsaaq_1_1Vehicule.html" title="Classe abstraite qui permet de gérer les vehicules." alt="" coords="87,5,203,32"/>
-</map>
