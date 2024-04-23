@@ -73,5 +73,5 @@ price: $2409.19
 
 # Use
 
-Download the project, open it in Apache Netbeans on Linux and execute the usage file: managementRegistration in the usage directory.
+Download the project, open it in Apache Netbeans on Linux and execute the usage file: gestionImmatriculation in the usage directory.
 If error specify the project directory to your IDE.
