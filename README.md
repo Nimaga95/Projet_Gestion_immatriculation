@@ -1,77 +1,77 @@
-# Projet_Gestion_immatriculation
+#Registration_management
 
-Il s'agit d'un projet complet de gestion de voitures en C++. 
+This is a complete car management project in C++.
 
-# Exemple d'execution
+# Execution example
 
-Bienvenue à l'outil d'ajout de gestion de vehicules
+Welcome to the vehicle management add tool
 
--------------------------------------------------------
-Ajoutez un vehicule de promenade
--------------------------------------------------------
+-------------------------------------------------- -----
+Add a passenger vehicle
+-------------------------------------------------- -----
 
-Entrez le numero de serie :
+Enter the serial number:
 3VWFE21C04
-Ce numero de Serie n'est pas valide
-Entrez le numero de serie :
+This serial number is not valid
+Enter the serial number:
 3VWFE21C04M000001
 
-Entrez le numero d'immatriculation :
+Enter the registration number:
 IFT006
-Le numero d'immatriculation n'est pas valide.
+The registration number is not valid.
 
-Entrez le numero d'immatriculation :
+Enter the registration number:
 IFT 006
 
-Entrez le nombre de places > 0 :
+Enter the number of places > 0:
 7
 
--------------------------------------------------------
-Ajoutez un camion
--------------------------------------------------------
+-------------------------------------------------- -----
+Add a truck
+-------------------------------------------------- -----
 
-Entrez le numero de serie :
+Enter the serial number:
 1HTMKADN43H561298
 
-Entrez le numero d'immatriculation :
+Enter the registration number:
 L032006
 
-Entrez le poids du camion > 3000 kg :
+Enter the weight of the truck > 3000 kg:
 6500
 
-Entrez le nombre d'essieux >= 2 :
+Enter the number of axles >= 2:
 4
 
-Proprietaire
+Owner
 -------------------
 
-Nom : Tremblay
+Name: Tremblay
 
-Prenom : Louis
-
--------------------
-
-Numero de serie : 3VWFE21C04M000001
-
-Numero d’immatriculation : IFT 006
-
-nombre de places : 7
-
-tarif : 232.74$
+First name: Louis
 
 -------------------
 
-Numero de serie : 1HTMKADN43H561298
+Serial number: 3VWFE21C04M000001
 
-Numero d’immatriculation : L032006
+Registration number: IFT 006
 
-nombre d'essieux : 4
+number of places: 7
 
-poids : 6500 kg
+price: $232.74
 
-tarif : 2409.19$
+-------------------
 
-# Utilisation
+Serial number: 1HTMKADN43H561298
 
-Télecharger le projet, l'ouvrir dans Apache Netbeans sur linux et excuter le fichier d'utilsation : gestionImmatriculation dans le repertoire utilisation.
-Si erreur spécifier le repertoire du projet à votre IDE.
+Registration number: L032006
+
+number of axles: 4
+
+weight: 6500 kg
+
+price: $2409.19
+
+# Use
+
+Download the project, open it in Apache Netbeans on Linux and execute the usage file: managementRegistration in the usage directory.
+If error specify the project directory to your IDE.
